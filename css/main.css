@@ -1,0 +1,112 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+* {
+	margin: 0px;
+	transition: all 0.5s ease;
+	font-family: "OpenSansRegular";
+}
+
+span {
+	color: #6D4F33;
+}
+
+/* Section - 1 */
+
+header h1, header h2, header h3, header a {
+	text-shadow: 1.5px 2.6px 0 rgba(10, 12, 12, 0.1);
+}
+
+header {
+	height: 590px;
+	background-image: url(../img/Header-BG.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+header h1 {
+	text-shadow: 2.5px 4.3px 0 rgba(10, 12, 12, 0.1);
+	font-family: "OpenSansExtraBold";
+	font-size: 100px;
+	line-height: 100px;
+	margin-top: 200px;
+}
+
+header h2 {
+	font-size: 40px;
+	line-height: 54px;
+}
+
+header h3 {
+	font-size: 25px;
+	line-height: 34px;
+}
+
+.stroke {
+	width: 244px;
+	height: 1px;
+	background-color: white;
+	margin: 30px 0 25px 0;
+}
+
+header a, a:hover, a:active {
+	color: white;
+	font-family: "OpenSansItalic";
+	font-size: 18px;
+}
+
+header .arrow {
+	width: 32px;
+	height: 66px;
+	margin: auto;
+	margin-top: 20px;
+	cursor: pointer;
+}
